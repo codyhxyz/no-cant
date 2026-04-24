@@ -1,13 +1,13 @@
 {
-  "name": "never-say-never",
-  "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
-  "version": "0.1.1",
+  "name": "high-agency-mode",
+  "description": "Stop hook that catches \"can't\"/\"cannot\" in Claude's replies and forces a four-move reframe — constraint, options, tradeoffs, recommendation. AKA: \"you can just do things\", \"never say never\", \"yes can do\".",
+  "version": "0.1.2",
   "author": {
     "name": "Cody Hergenroeder",
     "email": "plugins@codyh.xyz"
   },
-  "homepage": "https://github.com/codyhxyz/never-say-never",
-  "repository": "https://github.com/codyhxyz/never-say-never",
+  "homepage": "https://github.com/codyhxyz/high-agency-mode",
+  "repository": "https://github.com/codyhxyz/high-agency-mode",
   "license": "MIT",
   "keywords": [
     "claude-code",

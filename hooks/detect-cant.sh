@@ -58,7 +58,7 @@ cleaned=$(printf '%s' "$last_text" | awk '
 if printf '%s' "$cleaned" | grep -qiE "(^|[^[:alnum:]])(can'?t|cannot|can not)([^[:alnum:]]|$)"; then
     jq -n '{
       decision: "block",
-      reason: "Detected \"can'\''t\" / \"cannot\" in your reply (outside code/quoted contexts). Invoke the never-say-never:reframe skill via the Skill tool to reframe the constraint as a chief-of-staff would — identify what IS possible, propose concrete alternatives with tradeoffs, then continue. Do not simply restate the refusal."
+      reason: "Detected \"can'\''t\" / \"cannot\" in your reply (outside code/quoted contexts). Invoke the high-agency-mode:reframe skill via the Skill tool to reframe the constraint as a chief-of-staff would — identify what IS possible, propose concrete alternatives with tradeoffs, then continue. Do not simply restate the refusal."
     }'
     exit 0
 fi

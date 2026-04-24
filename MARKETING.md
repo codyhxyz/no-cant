@@ -1,4 +1,4 @@
-# Marketing copy for never-say-never
+# Marketing copy for high-agency-mode
 
 <!--
   Drafted in Phase 5.5 per the create-claude-plugin marketing rubric.
@@ -7,22 +7,26 @@
 
 ## Launch tweet
 
-new claude plugin: never-say-never 🙅
+new claude plugin: high-agency-mode 🙅
 
-stop hook that catches "can't" in Claude's replies and forces a 4-move reframe — constraint, options, tradeoffs, recommendation.
+(a.k.a. never-say-never · yes-can-do · you-can-just-do-things)
 
-shipped v0.1.0 → caught me saying "can't" while describing it → v0.1.1. dogfood.
+stop hook catches "can't" in Claude's replies → blocks the turn → forces a 4-move reframe: constraint, options, tradeoffs, recommendation.
 
-`/plugin install never-say-never@codyhxyz-plugins`
+v0.1.0 → hook caught me saying "can't" while writing about it → v0.1.1. recursive dogfood.
+
+`/plugin install high-agency-mode@codyhxyz-plugins`
 
 ## Alt tweets
 
-- Tired of Claude saying "I can't"? Same. Wrote a Stop hook that greps for it and blocks the turn until Claude reframes into options + tradeoffs + a recommendation. One hook, one skill, self-contained. github.com/codyhxyz/never-say-never
+- Tired of Claude saying "I can't"? Same. Wrote a Stop hook that blocks the turn until Claude reframes into constraint + options + tradeoffs + recommendation. Also known as: never-say-never, yes-can-do, you-can-just-do-things. github.com/codyhxyz/high-agency-mode
 
-- "Can't" is almost never true impossibility. It's "the naive approach failed" or "the tool's not there." never-say-never intercepts those replies and makes Claude name the actual constraint + propose adjacent moves. github.com/codyhxyz/never-say-never
+- "Can't" is almost never true impossibility. It's "the naive approach failed" or "the tool's not there." high-agency-mode intercepts those replies and makes Claude name the actual constraint + propose adjacent moves. github.com/codyhxyz/high-agency-mode
 
-- v0.1.0: shipped never-say-never, a Stop hook that blocks "can't" replies. v0.1.1: shipped an hour later after the hook caught me saying "can't" while writing about it. perfect recursive dogfood. github.com/codyhxyz/never-say-never
+- Shipped high-agency-mode (v0.1.0). An hour later the hook caught me writing "can't" while describing it. Shipped v0.1.1 that strips code/quote contexts before matching. The plugin tested itself in public. github.com/codyhxyz/high-agency-mode
+
+- Karpathy says "you can just do things." Claude says "I can't do that." high-agency-mode patches the gap — Stop hook + reframe skill, 150 lines. github.com/codyhxyz/high-agency-mode
 
 ## Social preview
 
-Social preview: `assets/og.png` (1200×630, dark theme, orange accent). Upload to GitHub repo settings → Social preview → Edit (GitHub has no API for this slot — one-time manual step).
+Social preview: `assets/og.png` (1200×630, dark theme, orange accent, tagline "You can just do things."). Upload to GitHub repo settings → Social preview → Edit (GitHub has no API for this slot — one-time manual step).

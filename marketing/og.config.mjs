@@ -7,12 +7,12 @@
 // used by Twitter / Slack / iMessage / LinkedIn / GitHub's social-preview slot).
 
 export default {
-  name: "never-say-never",
+  name: "high-agency-mode",
   label: "Claude plugin",
-  taglineLine1: "Never say never.",
-  taglineLine2: "",
-  subtitle: "Stop hook that catches \"can't\" in Claude's replies and forces a high-agency reframe.",
-  footer: "github.com/codyhxyz/never-say-never",
+  taglineLine1: "You can just",
+  taglineLine2: "do things.",
+  subtitle: "Stop hook that catches \"can't\" in Claude's replies and forces a four-move reframe.",
+  footer: "github.com/codyhxyz/high-agency-mode",
   theme: "dark",
   accent: "#f97316",
 };

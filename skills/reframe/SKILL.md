@@ -1,6 +1,6 @@
 ---
 name: reframe
-description: Use when your previous reply reached for "can't" / "cannot" / "can not" — shift from constraint-first framing to high-agency, chief-of-staff problem-solving. Triggered automatically by the never-say-never Stop hook; can also be invoked directly on phrases like "reframe this", "find another way", "no, actually solve it".
+description: Use when your previous reply reached for "can't" / "cannot" / "can not" — shift from constraint-first framing to high-agency, chief-of-staff problem-solving. Triggered automatically by the high-agency-mode Stop hook; can also be invoked directly on phrases like "reframe this", "find another way", "no, actually solve it".
 ---
 
 # Reframe — turn "can't" into "here's what IS possible"

@@ -1,4 +1,4 @@
-# VHS tape for never-say-never hero demo.
+# VHS tape for high-agency-mode hero demo.
 # Render: ${CLAUDE_PLUGIN_ROOT}/scripts/record-demo.sh <plugin-path>
 # Or directly: vhs docs/demo.tape
 

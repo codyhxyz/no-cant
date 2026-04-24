@@ -1,7 +1,7 @@
 {
-  "name": "never-say-never",
+  "name": "high-agency-mode",
   "metadata": {
-    "description": "Single-plugin marketplace for no-cant."
+    "description": "Single-plugin marketplace for high-agency-mode."
   },
   "owner": {
     "name": "Cody Hergenroeder",
@@ -9,8 +9,8 @@
   },
   "plugins": [
     {
-      "name": "never-say-never",
-      "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
+      "name": "high-agency-mode",
+      "description": "Stop hook that catches \"can't\"/\"cannot\" in Claude's replies and forces a four-move reframe — constraint, options, tradeoffs, recommendation. AKA: \"you can just do things\", \"never say never\", \"yes can do\".",
       "source": "./",
       "author": {
         "name": "Cody Hergenroeder",

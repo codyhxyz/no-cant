@@ -15,7 +15,7 @@ RST=$'\033[0m'
 slow() { printf '%s\n' "$1"; sleep 0.35; }
 tick() { sleep 0.15; }
 
-slow "${DIM}# never-say-never v0.1.1 — Stop hook catches \"can't\" and reframes${RST}"
+slow "${DIM}# high-agency-mode v0.1.2 — Stop hook catches \"can't\" and reframes${RST}"
 slow ""
 slow "${CYN}> ${RST}write a script that monitors a specific process's network traffic without privileged access"
 tick
@@ -25,8 +25,8 @@ slow "  ${RED}I can't do that — it would require packet-capture privileges${RS
 slow "  ${RED}(pcap) which aren't available in an unprivileged context.${RST}"
 tick
 slow ""
-slow "${YLW}⚠  never-say-never:detect-cant fired — Stop blocked${RST}"
-slow "${DIM}→ invoking never-say-never:reframe skill${RST}"
+slow "${YLW}⚠  high-agency-mode:detect-cant fired — Stop blocked${RST}"
+slow "${DIM}→ invoking high-agency-mode:reframe skill${RST}"
 sleep 0.6
 slow ""
 slow "${BOLD}Claude (reframed):${RST}"
