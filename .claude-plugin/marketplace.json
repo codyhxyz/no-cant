@@ -1,0 +1,21 @@
+{
+  "name": "no-cant",
+  "metadata": {
+    "description": "Single-plugin marketplace for no-cant."
+  },
+  "owner": {
+    "name": "Cody Hergenroeder",
+    "email": "plugins@codyh.xyz"
+  },
+  "plugins": [
+    {
+      "name": "no-cant",
+      "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
+      "source": "./",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      }
+    }
+  ]
+}

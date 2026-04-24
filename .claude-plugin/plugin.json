@@ -1,0 +1,21 @@
+{
+  "name": "no-cant",
+  "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cody Hergenroeder",
+    "email": "plugins@codyh.xyz"
+  },
+  "homepage": "https://github.com/codyhxyz/no-cant",
+  "repository": "https://github.com/codyhxyz/no-cant",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-plugin",
+    "claude-hook",
+    "high-agency",
+    "reframe",
+    "stop-hook"
+  ]
+}
