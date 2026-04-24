@@ -1,7 +1,7 @@
 {
   "name": "never-say-never",
   "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Cody Hergenroeder",
     "email": "plugins@codyh.xyz"
