@@ -33,7 +33,7 @@ last_text=$(jq -rs '
 if printf '%s' "$last_text" | grep -qiE "(^|[^[:alnum:]])(can'?t|cannot|can not)([^[:alnum:]]|$)"; then
     jq -n '{
       decision: "block",
-      reason: "Detected \"can'\''t\" / \"cannot\" in your reply. Invoke the no-cant:reframe skill via the Skill tool to reframe the constraint as a chief-of-staff would — identify what IS possible, propose concrete alternatives with tradeoffs, then continue. Do not simply restate the refusal."
+      reason: "Detected \"can'\''t\" / \"cannot\" in your reply. Invoke the never-say-never:reframe skill via the Skill tool to reframe the constraint as a chief-of-staff would — identify what IS possible, propose concrete alternatives with tradeoffs, then continue. Do not simply restate the refusal."
     }'
     exit 0
 fi

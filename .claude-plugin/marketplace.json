@@ -1,5 +1,5 @@
 {
-  "name": "no-cant",
+  "name": "never-say-never",
   "metadata": {
     "description": "Single-plugin marketplace for no-cant."
   },
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "no-cant",
+      "name": "never-say-never",
       "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
       "source": "./",
       "author": {
